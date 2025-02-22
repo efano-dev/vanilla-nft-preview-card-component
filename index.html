@@ -12,14 +12,36 @@
         <title>Frontend Mentor | NFT Preview Card Component</title>
     </head>
     <body>
-        Equilibrium #3429
+        <main>
+            <article class="card border-radius">
+                <div class="card__top">
+                    <a class="card__image-link">
+                        <img src="./assets/images/image-equilibrium.jpg" alt="Equilibrium Image" width="604" height="604" class="card__background border-radius-sm">
+                        <div class="card__image-link-overlay border-radius-sm"></div>
+                        <img src="./assets/images/icon-view.svg" alt="View Image" width="48" height="48" class="card__image-link-icon">
+                    </a>
+    
+                    <a class="card__link">
+                        <h1 class="card__h1 margin-bottom">Equilibrium #3429</h1>
+                    </a>
+                    <p class="card__p-lg margin-bottom-xl">Our Equilibrium collection promotes balance and calm.</p>
 
-        Our Equilibrium collection promotes balance and calm.
+                    <div class="card__group margin-bottom-lg">
+                        <img src="./assets/images/icon-ethereum.svg" alt="Ethereum Image" width="11" height="18">
+                        <p class="card__p highlight semi-bold margin-left-sm">0.041 ETH</p>
 
-        0.041 ETH
-        3 days left
-        
-        Creation of Jules Wyvern
+                        <img src="./assets/images/icon-clock.svg" alt="Clock Image" width="17" height="17" class="card__group__right-item">
+                        <p class="card__p margin-left-sm">3 days left</p>
+                    </div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__group">
+                        <img src="./assets/images/image-avatar.png" alt="Person Image" width="132" height="132" class="card__profile-image">
+                        <p class="card__p margin-left">Creation of Jules Wyvern</p>
+                    </div>
+                </div>
+            </article>
+        </main>
         <footer>
             <script src="./scripts/script.js" type="module"></script>
         </footer>
