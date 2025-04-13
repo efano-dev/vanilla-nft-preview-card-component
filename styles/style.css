@@ -19,7 +19,9 @@
     --fw-semibold: 600;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -28,7 +30,8 @@ body {
     font-family: "Outfit";
 }
 
-h1, p {
+h1,
+p {
     margin: 0;
 }
 
@@ -197,7 +200,7 @@ main {
     .margin-bottom-xl {
         margin-bottom: 1.5625rem;
     }
-    
+
     .margin-bottom-lg {
         margin-bottom: 1.5rem;
     }
